@@ -55,3 +55,17 @@ function App() {
 }
 
 export default App;
+
+
+
+
+// git pull origin main
+
+
+
+// git init
+// git add .
+// git commit - m "Initial commit"
+// git remote add origin https://github.com/LouisPierre-Andre/website3000.git
+// git branch - M main
+// git push - u origin main

@@ -84,7 +84,7 @@
 .Welcom .text_section h2 {
     font-size: 50px;
     margin: 3px 0;
-    color: rgb(4, 67, 4);
+    color: orangered;
 }
 
 .Welcom .text_section p {
@@ -105,7 +105,7 @@
     font-size: 16px;
     transition: .2s;
     border-radius: 10px;
-    background-color: rgb(4, 49, 4);
+    background-color: rgb(155, 43, 2);
     
 }
 
@@ -353,8 +353,6 @@
 
 .Welcom .text_section h2 {
     font-size: 2.6rem;
-    margin: 1px 0;
-    color: rgb(4, 67, 4);
 }
 
 .Welcom .text_section p {
@@ -365,19 +363,7 @@
     color: red;
 }
 
-.Welcom .text_section button {
-    border: none;
-    color: white;
-    cursor: pointer;
-    width: 150px;
-    height: 40px;
-    margin-top: 20px;
-    font-size: 16px;
-    transition: .2s;
-    border-radius: 10px;
-    background-color: rgb(4, 49, 4);
-    
-}
+
 
 
 

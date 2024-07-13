@@ -13,11 +13,11 @@ function App() {
         <NavBar />
 
 
-        <ul>
+        {/* <ul>
           <li><a href='/'>Home Page</a></li>
           <li><a href='/product_page'>Product Page</a></li>
           <li><a href='/contact_page'>Contact Page</a></li>
-        </ul>
+        </ul> */}
 
 
         <Routes>

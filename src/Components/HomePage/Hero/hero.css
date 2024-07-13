@@ -1,0 +1,401 @@
+
+
+/* ///////////////////////////////////////////////////// */
+/* Welcom section */
+
+.Welcom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    animation: bg 20s infinite;
+    margin-bottom: 10rem;
+}
+
+
+@keyframes bg {
+    0% {
+        background-color: rgb(200, 227, 254);
+    }
+    5% {
+        background-color: rgb(200, 227, 254);
+    }
+    15% {
+        background-color: rgb(227, 252, 227);  
+    }
+    20% {
+        background-color: rgb(227, 252, 227);
+    }
+    25% {
+        background-color: rgb(249, 227, 227);
+    }
+    40% {
+        background-color: rgb(249, 227, 227);
+    }
+    45% {
+        background-color: rgb(223, 222, 222);
+    }
+    60% {
+        background-color: rgb(223, 222, 222);
+    }
+    65% {
+         background-color: rgb(249, 243, 217);
+    }
+    85% {
+         background-color: rgb(249, 243, 217);
+    }
+    100% {
+        background-color: rgb(200, 227, 254);
+    }
+}
+
+
+
+
+
+
+
+.Welcom > div {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+}
+
+
+.Welcom  .text_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    min-width: 360px;
+}
+
+.Welcom .text_section h5 {
+    margin: 0;
+    font-size: 16px;
+    color: rgb(56, 56, 56);
+}
+
+.Welcom .text_section h1 {
+    font-size: 65px;
+    margin: 5px 0;
+}
+
+.Welcom .text_section h2 {
+    font-size: 50px;
+    margin: 3px 0;
+    color: rgb(4, 67, 4);
+}
+
+.Welcom .text_section p {
+    color: gray;
+}
+
+.Welcom .text_section p span {
+    color: red;
+}
+
+.Welcom .text_section button {
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: .2s;
+    border-radius: 10px;
+    background-color: rgb(4, 49, 4);
+    
+}
+
+.Welcom .text_section button:hover {
+    width: 170px;
+    border-radius: 0;
+}
+
+
+
+
+.Welcom .image_section {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    min-width: 510px;
+    /* height: 505px; */
+    margin-top: 100px;
+    transition: .3s;
+    /* border: 2px solid red; */
+}
+
+.Welcom  .image_section > div {
+    display: flex;
+    transform: translateX(-00%);
+    animation: hero 20s linear infinite;
+}
+
+.Welcom .image_section:hover {
+    scale: 1.05;
+}
+
+
+@keyframes hero {
+    0% {
+    transform: translateX(-0%);
+    }
+    5% {
+    transform: translateX(0%);
+    }
+    15% {
+    transform: translateX(-100%);  
+    }
+    20% {
+    transform: translateX(-100%);
+    }
+    25% {
+    transform: translateX(-200%);
+    }
+    40% {
+    transform: translateX(-200%);
+    }
+    45% {
+    transform: translateX(-300%);
+    }
+    60% {
+    transform: translateX(-300%);
+    }
+    65% {
+    transform: translateX(-400%);
+    }
+    85% {
+    transform: translateX(-400%);
+    }
+    100% {
+    transform: translateX(-500%);
+
+    }
+}
+
+.Welcom .image_section > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: 100%;
+    height: 500px;
+    /* border: 2px solid green; */
+     
+}
+
+
+
+
+.Welcom .image_section .img_box {
+    position: absolute;
+    z-index: 1;
+}
+
+
+.Welcom .image_section img {
+    width: 90%;
+    z-index: 1;
+    transform: rotate(25deg);
+}
+
+
+.Welcom .image_section > div > div:nth-child(1) img {
+   scale: 1.05;
+}
+.Welcom .image_section > div > div:nth-child(1) .background {
+    background-color: rgb(22, 46, 110);
+}
+
+.Welcom .image_section > div > div:nth-child(2)  img {
+   scale: 1.14;
+}
+.Welcom .image_section > div > div:nth-child(2) .background {
+   background-color: rgb(42, 78, 42);
+}
+
+.Welcom .image_section > div > div:nth-child(3) img {
+   scale: 1.28;
+}
+.Welcom .image_section > div > div:nth-child(3) .background {
+   background-color: rgb(113, 48, 48);
+}
+
+
+.Welcom .image_section > div > div:nth-child(4)  img {
+   scale: 1.1;
+}
+.Welcom .image_section > div > div:nth-child(4) .background {
+    background-color: rgb(56, 49, 52);
+}
+
+
+.Welcom .image_section > div > div:nth-child(5)  img {
+    position: absolute;
+   scale: 1.2;
+   left: 50px;
+   bottom: 100px;
+}
+.Welcom .image_section > div > div:nth-child(5) .background {
+   background-color: rgb(120, 74, 15);
+}
+
+
+.Welcom .image_section > div > div:nth-child(6) img {
+   scale: 1.05;
+}
+.Welcom .image_section > div > div:nth-child(6) .background {
+    background-color: rgb(22, 46, 110);
+}
+
+
+
+.Welcom .image_section button {
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    z-index: 2;
+    top: 200px;
+    right: 125px;
+    width: 100px;
+    height: 35px;
+    border-radius: 100px;
+    transition: .3s;
+}
+
+.Welcom .image_section button:hover {
+    scale: 1.1;
+    box-shadow: 0 0 10px white;
+}
+
+.Welcom .image_section p {
+     position: absolute;
+    z-index: 2;
+    top: 130px;
+    right: 150px;
+    font-size: 25px; 
+    color: white;
+}
+
+.Welcom .image_section .background {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 500px;
+    top: 0px;
+    background-color: rgb(27, 56, 135);
+}
+
+
+@media (max-width: 1200px) {
+    .Welcom .image_section {
+    scale: .7;
+}
+
+.Welcom .image_section:hover {
+    scale: .77;
+}
+
+.Welcom {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+}
+
+
+@media (max-width: 1000px) {
+    .Welcom {
+        padding-bottom: 5rem;
+    }
+
+    .Welcom > div {
+    flex-direction: column-reverse;
+    width: 90%;
+    align-items: center;
+}
+
+.Welcom .text_section {
+   /* border: 3px solid red; */
+   width: 100%;
+}
+
+.Welcom .image_section {
+    /* border: 3px solid red; */
+    margin-top: 80px;
+    
+    
+}
+
+
+
+
+
+}
+
+
+
+@media (max-width: 601px) {
+    .Welcom .text_section h5 {
+    font-size: 1.4rem;
+}
+
+.Welcom .text_section h1 {
+    font-size: 3.4rem;
+    margin: 2px 0;
+}
+
+.Welcom .text_section h2 {
+    font-size: 2.6rem;
+    margin: 1px 0;
+    color: rgb(4, 67, 4);
+}
+
+.Welcom .text_section p {
+    color: gray;
+}
+
+.Welcom .text_section p span {
+    color: red;
+}
+
+.Welcom .text_section button {
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: .2s;
+    border-radius: 10px;
+    background-color: rgb(4, 49, 4);
+    
+}
+
+
+
+.Welcom  .text_section {
+    min-width: 60px;
+}
+
+
+.Welcom .image_section {
+    min-width: 50px;
+
+}
+
+
+.Welcom .image_section {
+    /* width: 140vw; */
+    /* min-width: 510px; */
+
+}
+}
+

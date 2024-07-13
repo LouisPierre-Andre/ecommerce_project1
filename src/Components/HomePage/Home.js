@@ -1,10 +1,11 @@
 import React from 'react'
+import Hero from './Hero/Hero'
 
 function Home() {
   return (
       <div>
-          <h1>Welcom to home Page</h1>
-    </div>
+          <Hero />
+       </div>
   )
 }
 

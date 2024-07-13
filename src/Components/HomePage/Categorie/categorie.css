@@ -1,11 +1,15 @@
 
 
 /* ////////////////////////////////////////////////// */
-
+#Categorie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* top_categorie */
 .top_categorie {
-    padding: 0 70px;
+    width: 80%;
     /* padding-top: 40px; */
     background-color: white;
 }

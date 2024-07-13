@@ -8,7 +8,8 @@ import img4 from './images/catego6.jfif'
 function Categorie() {
   return (
     
-
+<div id='Categorie'>
+          
         < section class="top_categorie" >
             <h2>Shop our top categories</h2>
             <div>
@@ -39,7 +40,9 @@ function Categorie() {
 
 
             </div>
-        </section >
+          </section >
+</div>
+
 
   )
 }

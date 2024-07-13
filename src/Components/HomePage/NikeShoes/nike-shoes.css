@@ -1,0 +1,138 @@
+#nike {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////// */
+
+.products {
+    /* padding: 0 100px; */
+    width: 80%;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+.products h2 {
+    font-size: 35px;
+    color: rgb(48, 48, 48);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.product_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    justify-content: center;
+    gap: 1rem;
+}
+
+.product_list > div {
+    box-sizing: border-box;
+    /* border-radius: 10px; */
+    padding: 0;
+    width: 100%;
+    border: 20px solid rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.19);
+    transition: .3s;
+}
+
+
+.products .product_list > div:hover {
+    scale: 1.051;
+}
+
+
+.product_list .img_box {
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    height: 190px;
+    background-color: white;
+}
+
+.product_list > div img {
+    object-fit: contain;
+    width: 100%;
+    height: 200px;
+    transition: .2s;
+    transform: translateY(-10px);
+    scale: 1.13;
+}
+
+
+.products.nike .product_list > div img {
+    scale: 1.3;
+    background-color: rgba(128, 128, 128, 0.131);
+}
+.products.nike .product_list > div:hover img {
+    /* scale: 1.4; */
+    background-color: rgba(173, 216, 230, 0.469);
+}
+
+.products.vans .product_list > div img {
+    scale: 1.1;
+}
+
+
+
+.products.nike .product_list > div .img_box {
+border: none;
+}
+
+.product_list > div:hover img {
+    cursor: pointer;
+    
+}
+
+
+
+.product_list > div h3 {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+
+.product_list > div p:first-of-type {
+    margin: 5px 0;
+
+}
+
+
+.product_list > div > p:last-of-type {
+    margin: 10px 0 10px 0;
+
+}
+
+.product_list > div > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.product_list > div > div p {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    color: black;
+}
+
+.product_list > div button {
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    background-color: orangered;
+    border-radius: 5px;
+    transition: .3s;
+    color: white;
+}
+
+.product_list > div button:hover {
+    scale: 1.1;
+}
+
+
+

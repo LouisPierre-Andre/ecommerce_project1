@@ -1,0 +1,90 @@
+
+
+#off_price {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+/* /////////////////////////////////////////////////////////// */
+.off_price {
+    width: 80%;
+    /* padding-top: 40px; */
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+.off_price h2 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 48, 48);
+}
+
+.off_price > div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 15px;
+}
+
+.off_price > div > div {
+    overflow: hidden;
+    width: 100%;
+    background-color: lightblue;
+    border-radius: 15px;
+}
+
+
+
+.off_price .desc {
+    background-color: rgb(238, 206, 206);
+    background-color: rgb(255, 241, 241);
+
+    padding: 15px;
+    transition: .3s;
+}
+.off_price > div > div:hover .desc {
+    background-color: rgb(70, 70, 70);
+    background-color: rgb(238, 206, 206);
+}
+
+.off_price .img_box {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.off_price .img_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    transition: .3s;
+}
+
+.off_price > div > div:hover img {
+    scale: 1.15;
+}
+
+.off_price h3 {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.678);
+}
+
+.off_price h1 {
+    color: rgb(116, 13, 13);
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 6px 0;
+    transition: .3s;
+}
+
+.off_price > div > div:hover h1 {
+    color: orangered;
+}
+
+.off_price .desc p {
+    margin: 4px;
+}
+

@@ -17,14 +17,14 @@ function NavBar() {
           </div>
           <div class="icons">
             <div class="icon">
-              <a href="">
+              <a href="/">
                 <img src={favorit}
                   alt="this is an item favorit " />
                   <p>2</p>
               </a>
             </div>
             <div class="icon">
-              <a href="">
+              <a href="/">
                 <img src={cart}
                   alt="this is a cart "/>
                   <p>4</p>
@@ -41,9 +41,9 @@ function NavBar() {
           <div></div>
 
           <div class="links">
-            <a href="">Home</a>
-            <a href="">Products</a>
-            <a href="">Contact</a>
+            <a href="/">Home</a>
+            <a href="/product_page">Products</a>
+            <a href="/contact_page">Contact</a>
           </div>
           <div class="filter">
             <img src={filtre_icon}

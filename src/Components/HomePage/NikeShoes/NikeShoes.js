@@ -1,7 +1,6 @@
 import React from 'react'
 import "./nike-shoes.css"
 import img1 from './images/nike (10).png'
-import img2 from './images/nike (11).png'
 import img3 from './images/nike (12).png'
 import img4 from './images/nike (13).png'
 import img5 from './images/nike (14).png'

@@ -1,6 +1,5 @@
 import React from 'react'
 import "./special-product.css"
-import { Link } from 'react-router-dom'
 
 import img1 from "./images/apple-iphone.jpg"
 
@@ -16,7 +15,7 @@ function SpecialProduct() {
               
               <div className='single_product ' >
                   <div className='img-box'>
-                      <img className='img-fluid' src={img1} />
+                      <img className='img-fluid' src={img1} alt='this is a product' />
                   </div>
                   <div className='special'>
                       <h6>This is the name </h6>
@@ -31,7 +30,7 @@ function SpecialProduct() {
 
               <div className='single_product ' >
                   <div className='img-box'>
-                      <img className='img-fluid' src={img1} />
+                      <img className='img-fluid' src={img1} alt='this is a product' />
                   </div>
                   <div className='special'>
                       <h6>This is the name </h6>
@@ -46,7 +45,7 @@ function SpecialProduct() {
 
               <div className='single_product ' >
                   <div className='img-box'>
-                      <img className='img-fluid' src={img1} />
+                      <img className='img-fluid' src={img1} alt='this is a product' />
                   </div>
                   <div className='special'>
                       <h6>This is the name </h6>
@@ -61,7 +60,7 @@ function SpecialProduct() {
               
               <div className='single_product ' >
                   <div className='img-box'>
-                      <img className='img-fluid' src={img1} />
+                      <img className='img-fluid' src={img1} alt='this is a product' />
                   </div>
                   <div className='special'>
                       <h6>This is the name </h6>
@@ -76,7 +75,7 @@ function SpecialProduct() {
               
               <div className='single_product ' >
                   <div className='img-box'>
-                      <img className='img-fluid' src={img1} />
+                      <img className='img-fluid' src={img1} alt='this is a product' />
                   </div>
                   <div className='special'>
                       <h6>This is the name </h6>
@@ -91,7 +90,7 @@ function SpecialProduct() {
 
               <div className='single_product ' >
                   <div className='img-box'>
-                      <img className='img-fluid' src={img1} />
+                      <img className='img-fluid' src={img1} alt='this is a product' />
                   </div>
                   <div className='special'>
                       <h6>This is the name </h6>
